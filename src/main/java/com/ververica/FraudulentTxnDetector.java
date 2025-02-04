@@ -53,14 +53,14 @@ public class FraudulentTxnDetector {
                 .where(new IterativeCondition<Transaction>() {
                     @Override
                     public boolean filter(Transaction transaction, Context<Transaction> context) throws Exception {
-                        return transaction.getAmount() > 10;
+                        return transaction.getAmount() > 900;
                     }
                 })
                 .next("second")
                 .where(new IterativeCondition<Transaction>() {
                     @Override
                     public boolean filter(Transaction transaction, Context<Transaction> context) throws Exception {
-                        return transaction.getAmount() > 10;
+                        return transaction.getAmount() > 900;
                     }
                 }).within(Time.seconds(30));
 
