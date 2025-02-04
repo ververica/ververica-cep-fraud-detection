@@ -1,7 +1,5 @@
 # FinTech Fraud Detection with Apache Flink & CEP on Ververica
 
-You can also check [this blog post](https://www.ververica.com/blog/real-time-insights-for-airlines-with-complex-event-processing).
-
 <p align="center">
     <img src="assets/logo.png">
 </p>
