@@ -1,11 +1,11 @@
-# Fraud Detection with Apache Flink & CEP on Ververica
+# Fraud Detection with Apache Flink on Ververica
 
 <p align="center">
     <img src="assets/logo.png">
 </p>
 
 This repository contains sample code demonstrating **Complex Event Processing (CEP)** with **Apache Flink** on streaming financial transactions with [Ververica](https://www.ververica.com/). 
-By **keying** transactions by user, the CEP job automatically ensures that all matched events in a pattern belong to the same user. 
+
 The code showcases how to detect:
 
 ✅ **High-Value Consecutive Transactions**
