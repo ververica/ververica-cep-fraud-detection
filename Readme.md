@@ -1,4 +1,4 @@
-# FinTech Fraud Detection with Apache Flink & CEP on Ververica
+# Fraud Detection with Apache Flink & CEP on Ververica
 
 <p align="center">
     <img src="assets/logo.png">
